@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - skd_make_review (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios-release`)
+  - skd_make_review (from `.symlinks/plugins/skd_make_review/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios-release"
+  skd_make_review:
+    :path: ".symlinks/plugins/skd_make_review/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  skd_make_review: 2bc5d7b61cd99398e1998227d67fce8a72dab944
+
+PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497
+
+COCOAPODS: 1.5.3
