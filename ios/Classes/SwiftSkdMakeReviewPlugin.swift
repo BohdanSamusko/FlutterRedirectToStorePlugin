@@ -12,7 +12,7 @@ public class SwiftSkdMakeReviewPlugin: NSObject, FlutterPlugin {
     
     let flutterMethod = call.method
     
-    if flutterMethod == "makeReview" {
+    /*if flutterMethod == "makeReview" {
         // App Store URL.
          let applicationId =  (call.arguments as! Dictionary<String, Any>)["ios_app_id"] as! String
         
@@ -27,7 +27,10 @@ public class SwiftSkdMakeReviewPlugin: NSObject, FlutterPlugin {
         
         result(true)
         }
-    
+    */
+
+      result(true)
+
    // result(applicationId)
     }
 }
