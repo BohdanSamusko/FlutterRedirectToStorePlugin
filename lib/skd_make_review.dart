@@ -8,7 +8,7 @@ class SkdMakeReview {
 
   static Future<bool> openStorePage(String androidAppId, String iosAppId) async {
 
-    final bool result = await _channel.invokeMethod('makeReview' ,<String, dynamic>{
+    final bool result = await _channel.invokeMethod('makeReview', <String, dynamic>{
       'ios_app_id' : iosAppId,
       'android_app_id' : androidAppId
     } );
